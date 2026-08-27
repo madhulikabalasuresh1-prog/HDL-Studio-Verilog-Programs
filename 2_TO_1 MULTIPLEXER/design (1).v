@@ -1,0 +1,11 @@
+`timescale 1ns/1ps
+
+module mux2to1( 
+
+    input I0, 
+     input I1, 
+     input S,
+      outputY  
+); 
+      assign Y= S ? I1 : I0;
+      endmodule
